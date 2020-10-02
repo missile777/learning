@@ -3,7 +3,7 @@ import unittest
 
 def reverse(n: list):
     # do this function
-    return n
+    return list(reversed(n))
 
 
 class TestListMethod(unittest.TestCase):
