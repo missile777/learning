@@ -2,15 +2,15 @@ import unittest
 
 
 def get_evens(n: list):
-    return [i for i in n if i % 2 == 0]
+    return [i for i in n if not (i % 2)]
 
 
 def get_odds(n: list):
-    return [i for i in n if i % 2 == 1]
+    return [i for i in n if i % 2]
 
 
 def get_thirds(n: list):
-    return [i for i in n if i % 3 == 0]
+    return [i for i in n if not (i % 3)]
 
 
 class TestEvenMethod(unittest.TestCase):

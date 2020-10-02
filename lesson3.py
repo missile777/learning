@@ -1,11 +1,14 @@
 
 import unittest
 
+
 def get_first(n: list):
     return n[0]
 
+
 def get_second(n: list):
     return n[1]
+
 
 def is_empty(n: list):
     return len(n) == 0
